@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
+	;
+
+body {
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+}
+
+h1 {
+	color: #5c7474;
+	
+}
+
+.botao1 {
+	text-decoration: none;
+	background-color: #5c7474;
+	padding: 5px 10px 5px 10px;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	border-radius: 10px;
+	border: 0;
+	cursor: pointer;
+}
+
+.botao2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: black;
+	font-size: 0.4em;
+	border-radius: 100px;
+	border: 2px;
+	cursor: pointer;
+}
+
+.caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #FFFfe3;
+	border-radius: 5px;
+}
+
+.caixa1 {
+	width: 320px;
+	padding: 5px;
+	background-color: #FFFfe3;
+}
+
+
+#tabela {
+	margin-top: 30px;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-align: left;
+	background-color: #5c7474;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: #FFFfe3;
+}
+
+tbody {
+	color: #5d7474;
+}
+
+#caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ffffe3;
+	
+}
