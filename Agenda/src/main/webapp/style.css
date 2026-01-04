@@ -1,83 +1,91 @@
 @charset "UTF-8";
 
-@import
-	url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
-	;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 body {
-	font-family: "Bebas Neue", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1em;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
 }
 
 h1 {
-	color: #5c7474;
-	
+  color: #5c7474;
+  position: relative;
+
+  font-size: 1.8em;
 }
 
 .botao1 {
-	text-decoration: none;
-	background-color: #5c7474;
-	padding: 5px 10px 5px 10px;
-	color: #FFFFFF;
-	font-size: 1.2em;
-	border-radius: 10px;
-	border: 0;
-	cursor: pointer;
+  text-decoration: none;
+  background-color: #5c7474;
+  padding: 5px 10px 5px 10px;
+  color: #ffffff;
+  font-size: 4lvb;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+  font-size: 1.4em;
 }
 
 .botao2 {
-	text-decoration: none;
-	background-color: #d51213;
-	padding: 5px 10px 5px 10px;
-	color: black;
-	font-size: 0.4em;
-	border-radius: 100px;
-	border: 2px;
-	cursor: pointer;
+  text-decoration: none;
+  background-color: #d51213;
+  padding: 5px 10px 5px 10px;
+  color: black;
+  font-size: 0.4em;
+  border-radius: 100px;
+  border: 2px;
+  cursor: pointer;
 }
 
 .caixa1 {
-	width: 320px;
-	padding: 5px;
-	margin-bottom: 10px;
-	border: 1px solid #FFFfe3;
-	border-radius: 5px;
+  width: 320px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffe3;
+  border-radius: 5px;
 }
 
 .caixa1 {
-	width: 320px;
-	padding: 5px;
-	background-color: #FFFfe3;
+  width: 320px;
+  padding: 5px;
+  background-color: #ffffe3;
 }
-
 
 #tabela {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 #tabela th {
-	border: 1px solid #ddd;
-	padding: 5px;
-	text-align: left;
-	background-color: #5c7474;
-	color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: left;
+  background-color: #5c7474;
+  color: #fff;
 }
 
 #tabela td {
-	border: 1px solid #ddd;
-	padding: 10px;
-	background-color: #FFFfe3;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #ffffe3;
 }
 
 tbody {
-	color: #5d7474;
+  color: #5d7474;
 }
 
 #caixa3 {
-	padding: 5px;
-	margin-bottom: 10px;
-	border: 1px solid #ffffe3;
-	
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffe3;
+}
+
+#size {
+  position: relative;
+
+  width: 200px;
+  border-radius: 35px;
 }
